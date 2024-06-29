@@ -1,0 +1,54 @@
+body {
+    background-color: hsl(218, 23%, 16%);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 800;
+}
+
+.container {
+    background-color: hsl(217, 19%, 24%);
+    width: 290px;
+    height: 190px;
+    border-radius: 10px;
+}
+
+.container span {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    font-size: 10px;
+    letter-spacing: 5px;
+}
+
+.container h2 {
+    font-size: 16px;
+    margin-top: 12px;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-align: center;
+    color: hsl(193, 38%, 86%);
+}
+
+.container button {
+    margin-top: 12px;
+    padding: 11px 13px;
+    border-style: none;
+    border-radius: 50px;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.icone-botao {
+    width: 15px;
+}
+
+.divisor img {
+    width: 255px;
+    margin-top: 10px;
+
+}

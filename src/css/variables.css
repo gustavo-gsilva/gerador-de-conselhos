@@ -1,0 +1,12 @@
+:root {
+    --cor-primária: hsl(150, 100%, 66%);
+}
+
+.container span {
+    color: var(--cor-primária);
+}
+
+.container button {
+    background-color: var(--cor-primária);
+}
+
