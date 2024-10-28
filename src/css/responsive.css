@@ -1,0 +1,63 @@
+@media (max-width: 480px) {
+    .container {
+        width: 400px;
+        height: 300px;
+    }
+
+    .secao-1 h4 {
+        font-size: 1rem;
+    }
+
+    .secao-1 p {
+        height: 150px;
+        font-size: 2rem;
+    }
+
+    .secao-2 {
+        gap: 38px;
+    }
+
+    .secao-2 .divisor {
+        width: 350px;
+    }
+
+    .secao-2 button {
+        width: 50px;
+        height: 50px;
+    }
+}
+
+@media (max-width: 380px) {
+    .container {
+        width: 300px;
+        height: 200px;
+        padding: 30px 30px;
+    }
+
+    .secao-1 h4 {
+        font-size: 0.8rem;
+    }
+
+
+    .secao-1 p {
+        height: 85px;
+        font-size: 1.4rem;
+    }
+
+    .secao-2 {
+        gap: 23px;
+    }
+
+    .secao-2 .divisor {
+        width: 265px;
+    }
+
+    .secao-2 button {
+        width: 40px;
+        height: 40px;
+    }
+
+    .secao-2 button img {
+        width: 15px;
+    }
+}
